@@ -18,7 +18,7 @@ Enter a number: 4
 c=0
 a=1
 N=(input("enter a number: ")).strip()
-N=float(N)
+N=int(N)
 while a <= 12:
     c += N
     print(c,end=" ")
