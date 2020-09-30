@@ -17,7 +17,7 @@ Enter a number: 4
 """
 c=0
 a=1
-N=input("enter a number: ")
+N=(input("enter a number: ")).strip()
 N=float(N)
 while a <= 12:
     c += N
