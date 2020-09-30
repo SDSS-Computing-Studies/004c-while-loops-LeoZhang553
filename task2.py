@@ -19,8 +19,8 @@ username = ""
 password = ""
 
 while username != "admin" or password != "12345":
-    username = input("username: ")
-    password = input("password: ")
+    username = (input("username: ")).strip()
+    password = (input("password: ")).strip()
     if username != "admin" or password != "12345":
         print("Access denied")
     else: 
